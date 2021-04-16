@@ -2,7 +2,7 @@
 @name          TVmaze Dark
 @namespace     github.com/xnaas/stylus-tvmaze-dark
 @homepageURL   https://github.com/xnaas/stylus-tvmaze-dark
-@version       1.0.1
+@version       1.0.2
 @updateURL     https://raw.githubusercontent.com/xnaas/stylus-tvmaze-dark/master/stylus-tvmaze-dark.user.css
 @description   Makes TVmaze not melt your eyeballs.
 @author        xnaas
@@ -86,6 +86,11 @@ body
     margin-top: 0.8rem;
     margin-bottom: 1rem;
     line-height: 1;
+  }
+  
+  /* Fixes white background on headers on /api */
+  #api h2, #api h3 {
+    background: none;
   }
 
   .panel

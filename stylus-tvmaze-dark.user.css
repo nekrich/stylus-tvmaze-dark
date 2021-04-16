@@ -2,7 +2,7 @@
 @name          TVmaze Dark
 @namespace     github.com/xnaas/stylus-tvmaze-dark
 @homepageURL   https://github.com/xnaas/stylus-tvmaze-dark
-@version       1.0.2
+@version       1.0.3
 @updateURL     https://raw.githubusercontent.com/xnaas/stylus-tvmaze-dark/master/stylus-tvmaze-dark.user.css
 @description   Makes TVmaze not melt your eyeballs.
 @author        xnaas
@@ -767,5 +767,11 @@ body
   {
     border-left: 3px solid #ECD06F;
     background-color: #584d26;
+  }
+  
+  /* Fix text being unreadable in forum Reply box */
+  #comment-reply .ck-blurred p,
+  #comment-reply .ck-focused p {
+    color: black;
   }
 }

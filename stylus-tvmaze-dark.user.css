@@ -2,7 +2,7 @@
 @name          TVmaze Dark
 @namespace     github.com/xnaas/stylus-tvmaze-dark
 @homepageURL   https://github.com/xnaas/stylus-tvmaze-dark
-@version       1.0.0
+@version       1.0.1
 @updateURL     https://raw.githubusercontent.com/xnaas/stylus-tvmaze-dark/master/stylus-tvmaze-dark.user.css
 @description   Makes TVmaze not melt your eyeballs.
 @author        xnaas
@@ -70,9 +70,8 @@ body
   {
     font-size: 0.9em;
     padding: 5px;
-    display: inline-block;
-    border-bottom: 1px dotted #3C948B;
     display: block;
+    border-bottom: 1px dotted #3C948B;
     margin-bottom: 5px;
     background-color: #005B61;
   }
@@ -162,7 +161,7 @@ body
   {
     background-color: #3C948B;
     color: #ffffff;
-    font-weight: strong;
+    font-weight: bold;
   }
 
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl
@@ -450,7 +449,6 @@ body
     margin-bottom: 10px;
     font-family: Open Sans,sans-serif;
     font-weight: 300;
-    font-size: 1rem;
     background: #333333 none repeat scroll 0 0;
   }
 
@@ -572,7 +570,7 @@ body
   {
     border: none;
     background-color: #585858;
-    webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
     -mox-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
     margin-bottom: 20px;
     position: relative;
@@ -593,7 +591,7 @@ body
     position: relative;
     background-color: #585858;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
-    webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
     -mox-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
     margin-bottom: 20px;
   }
